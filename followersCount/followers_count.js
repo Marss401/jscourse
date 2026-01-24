@@ -16,3 +16,8 @@ const checkCountValue = () => {
         alert("You just gained 20 followers, welldone!");
     }
 }
+function resetCount(){
+    count = 0;
+    countDisplay();
+    alert("your followers count has been reset");
+}
